@@ -4,13 +4,6 @@ In this challenge, we were asked to create a leaderboard by either storing data 
 
 The following code can be used to login to PlayFab leaderboard and get/set entries.
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using PlayFab;
-using PlayFab.ClientModels;
-using TMPro;
-
 public class PlayFabManager : MonoBehaviour
 {
     private static PlayFabManager instance;
